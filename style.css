@@ -1,0 +1,90 @@
+body{
+
+}
+.hero{
+    height: 34em;
+    background-image: url('images/Image\ Of\ A\ Book\ Open\ On\ A\ Table\ In\ Front\ Of\ A\ Window_\ Free\ Royalty-Free\ Media\ To\ Use\ For\ Projects.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 20px;    
+    color: white;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+   margin: 2em;
+}
+.HeroText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+        padding: 5px;
+
+}
+a:hover{
+    border: 2px solid black;
+    border-radius: 2px;
+}
+.containers{
+    margin-top: 10em;
+}
+.MID{
+    display: flex;
+    justify-content: center;
+    
+}
+.bookGenreCont{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    margin: 3em;
+}
+/* .containerOne{
+    display: flex;
+    justify-content: space-between;
+} */
+.containerTwo{
+    display: flex;
+    justify-content: space-around;
+}
+.grn{
+    background-color: green;
+}
+.bookOne{
+    /* background-color: yellow; */
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.524);
+    padding: 1em;
+
+}
+/* .NovelInfo{
+    ,
+} */
+img{
+    /* width: 20%; */
+    max-height: 20em;
+    min-width: 20%;
+    
+}
+footer{
+    background-color: grey;
+    padding: 10em;
+    margin-top: 3em;
+}
+.footer{
+}
